@@ -1,0 +1,61 @@
+*{
+margin: 0;
+padding: 0;
+font-family:'Poppins', sans-serif;
+box-sizing: border-box;
+}
+.hero{
+    width: 80%;
+    min-height: 305;
+    background: #eceaff;
+    color: #525252;
+    display: flex;
+    justify-content: flex-end; /* Start from the right */
+    position: fixed;
+    
+
+}
+
+.nav{
+    background: #eceaff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height:40px;
+}
+
+.logo{
+    width: 120px;
+
+}
+
+.user-pic
+{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left:10px;
+}
+nav ul{
+    width: 100%;
+    text-align: right;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #525252;
+     text-decoration:none
+}
